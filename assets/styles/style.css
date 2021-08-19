@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+}
+
+body
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar
+{
+    align-items: center;
+    height: 10vh;
+    background-color: darkblue;
+    display: flex;
+}
+
+.navbar h1
+{
+    margin: auto;
+    margin-left: 10px;
+    color: cyan;
+    padding: 0;
+    align-content: center;
+    font-size: 5vmin;
+}
+.navbar h1:hover
+{
+    color: gold;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding-right: 5vw;
+    font-size: 2.5vmin
+}
+
+.navbar a:hover{
+    color: rgb(255, 255, 0);
+}
+
+.navbar .nav-links
+{
+    margin-left: auto;
+}
+
+.container h2
+{
+    font-size: 5vmin;
+    border-bottom: 5px solid rgb(0, 255, 179);
+    padding-bottom: 10px;
+    margin: 10px 0;
+}
+
+.container h3
+{
+    font-size: 4vmin;
+    border-bottom: 5px solid rgb(0, 255, 179);
+    padding: 10px 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container h4
+{
+    font-size: 2.5vmin;
+    text-indent: 50px;
+    line-height: 1.5em;
+    -webkit-text-stroke: 0.4px rgb(140, 0, 255);
+}
+
+.container h5
+{
+    font-size: 1.5vmin;
+    color: rgb(247, 247, 247);
+    display: inline;
+}
+
+.container a
+{
+    font-size: 1.5vmin;
+    display: inline;
+}
+
+.break
+{
+    border-top: 5px solid rgb(38, 0, 255);
+    margin-top: 25px;
+
+}
+
+.detail
+{
+    margin: 0 4%;
+}
+.list li
+{
+    list-style-type: disc !important;
+    font-size: 2.5vmin;
+    -webkit-text-stroke: 0.4px rgb(140, 0, 255);
+}
+
+.row h4
+{
+    text-indent: 0;
+    font-size: large;
+    margin: 5px, 0;
+}
+
+.material-icons
+{
+    font-size: 4vmin;
+}
+
+.card
+{
+    color: blue;
+    background-color: palegoldenrod;
+}
+
+.card-title
+{
+    color: rgb(225, 0, 255) !important;
+}
+
+.action
+{
+    color: rgb(55, 0, 255) !important;
+}
